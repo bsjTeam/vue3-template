@@ -32,7 +32,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/api/httpApi.ts", "src/api/apiConfig.ts", "src/api/baseUrl.ts", "src/api/apiFn.ts", "src/api/url.ts"  ],
   "exclude": [
     "node_modules"
   ]

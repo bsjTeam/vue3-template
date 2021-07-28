@@ -6,13 +6,20 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent,onMounted} from 'vue';
 import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
+import API from '@/api/httpApi';
 export default defineComponent({
   name: 'Home',
   components: {
     HelloWorld,
   },
+  setup(){
+    onMounted(() => {
+     console.log(API);
+    })
+
+  },
+  
 });
 </script>
